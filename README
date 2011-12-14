@@ -1,5 +1,5 @@
-ACrypto -- the Arduino Crypto Library
-=====================================
+ACrypto -- the Arduino Crypto Library -- v. 0.9 (alpha -- prerelase)
+====================================================================
 
 The ACrypto library is a collection of open-source code which implements
 various cryptographic operations on the Arduino family of experimentation 
