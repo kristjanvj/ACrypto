@@ -1,0 +1,157 @@
+# depslib dependency file v1.0
+1323875421 source:/home/kristjan/working/arduino-crypto/lib/ACrypto/AES128.cpp
+	"AES128.h"
+	"aes_tables.h"
+
+1323875515 /home/kristjan/working/arduino-crypto/lib/ACrypto/AES128.h
+	<string.h>
+	"BlockCipherAlgorithm.h"
+
+1323875549 /home/kristjan/working/arduino-crypto/lib/ACrypto/BlockCipherAlgorithm.h
+	<stdlib.h>
+	"CryptoDefs.h"
+
+1323875577 /home/kristjan/working/arduino-crypto/lib/ACrypto/CryptoDefs.h
+
+1323875669 /home/kristjan/working/arduino-crypto/lib/ACrypto/aes_tables.h
+
+1323875389 source:/home/kristjan/working/arduino-crypto/lib/ACrypto/AES128CBC_CMAC_EtM.cpp
+	"AES128CBC_CMAC_EtM.h"
+
+1323875528 /home/kristjan/working/arduino-crypto/lib/ACrypto/AES128CBC_CMAC_EtM.h
+	"CBCMode.h"
+	"AES128_CMAC.h"
+
+1323875559 /home/kristjan/working/arduino-crypto/lib/ACrypto/CBCMode.h
+	"CryptoModeBase.h"
+	"BlockCipherAlgorithm.h"
+	"AES128.h"
+	"XTEA.h"
+
+1323875595 /home/kristjan/working/arduino-crypto/lib/ACrypto/CryptoModeBase.h
+	<stdlib.h>
+	<string.h>
+	"BlockCipherAlgorithm.h"
+	"CryptoDefs.h"
+
+1323875703 /home/kristjan/working/arduino-crypto/lib/ACrypto/XTEA.h
+	<string.h>
+	"BlockCipherAlgorithm.h"
+
+1323875543 /home/kristjan/working/arduino-crypto/lib/ACrypto/AES128_CMAC.h
+	<math.h>
+	"AES128.h"
+
+1323875451 source:/home/kristjan/working/arduino-crypto/lib/ACrypto/AES128_CMAC.cpp
+	"AES128_CMAC.h"
+
+1323875460 source:/home/kristjan/working/arduino-crypto/lib/ACrypto/CBCMode.cpp
+	"CBCMode.h"
+
+1323875468 source:/home/kristjan/working/arduino-crypto/lib/ACrypto/CryptoModeBase.cpp
+	"CryptoModeBase.h"
+
+1323875477 source:/home/kristjan/working/arduino-crypto/lib/ACrypto/ECBMode.cpp
+	"ECBMode.h"
+
+1323875702 /home/kristjan/working/arduino-crypto/lib/ACrypto/ECBMode.h
+	"ACrypto.h"
+	"CryptoModeBase.h"
+	"BlockCipherAlgorithm.h"
+	"AES128.h"
+	"XTEA.h"
+
+1323875501 /home/kristjan/working/arduino-crypto/lib/ACrypto/ACrypto.h
+	"AES128.h"
+	"XTEA.h"
+	"ECBMode.h"
+	"CBCMode.h"
+	"AES128_CMAC.h"
+	"AES128CBC_CMAC_EtM.h"
+
+1323875486 source:/home/kristjan/working/arduino-crypto/lib/ACrypto/XTEA.cpp
+	"XTEA.h"
+
+1323897150 source:/home/kristjan/working/arduino-crypto/testing/acrypto_pc_tests/acrypto_pc_tests.cc
+	"ACrypto.h"
+	<string.h>
+	<stdio.h>
+
+1323903828 source:/home/kristjan/working/ACrypto/lib/ACrypto/AES128.cpp
+	"AES128.h"
+	"aes_tables.h"
+
+1323904292 /home/kristjan/working/ACrypto/lib/ACrypto/AES128.h
+	<string.h>
+	"BlockCipherAlgorithm.h"
+
+1323904367 /home/kristjan/working/ACrypto/lib/ACrypto/BlockCipherAlgorithm.h
+	<stdlib.h>
+	"CryptoDefs.h"
+
+1323904416 /home/kristjan/working/ACrypto/lib/ACrypto/CryptoDefs.h
+
+1323904495 /home/kristjan/working/ACrypto/lib/ACrypto/aes_tables.h
+
+1323903828 source:/home/kristjan/working/ACrypto/lib/ACrypto/AES128CBC_CMAC_EtM.cpp
+	"AES128CBC_CMAC_EtM.h"
+
+1323904309 /home/kristjan/working/ACrypto/lib/ACrypto/AES128CBC_CMAC_EtM.h
+	"CBCMode.h"
+	"AES128_CMAC.h"
+
+1323904396 /home/kristjan/working/ACrypto/lib/ACrypto/CBCMode.h
+	"CryptoModeBase.h"
+	"BlockCipherAlgorithm.h"
+	"AES128.h"
+	"XTEA.h"
+
+1323904438 /home/kristjan/working/ACrypto/lib/ACrypto/CryptoModeBase.h
+	<stdlib.h>
+	<string.h>
+	"BlockCipherAlgorithm.h"
+	"CryptoDefs.h"
+
+1323904475 /home/kristjan/working/ACrypto/lib/ACrypto/XTEA.h
+	<string.h>
+	"BlockCipherAlgorithm.h"
+
+1323904332 /home/kristjan/working/ACrypto/lib/ACrypto/AES128_CMAC.h
+	<math.h>
+	"AES128.h"
+
+1323903828 source:/home/kristjan/working/ACrypto/lib/ACrypto/AES128_CMAC.cpp
+	"AES128_CMAC.h"
+
+1323903828 source:/home/kristjan/working/ACrypto/lib/ACrypto/CBCMode.cpp
+	"CBCMode.h"
+
+1323903828 source:/home/kristjan/working/ACrypto/lib/ACrypto/CryptoModeBase.cpp
+	"CryptoModeBase.h"
+
+1323903828 source:/home/kristjan/working/ACrypto/lib/ACrypto/ECBMode.cpp
+	"ECBMode.h"
+
+1323904455 /home/kristjan/working/ACrypto/lib/ACrypto/ECBMode.h
+	"ACrypto.h"
+	"CryptoModeBase.h"
+	"BlockCipherAlgorithm.h"
+	"AES128.h"
+	"XTEA.h"
+
+1323904275 /home/kristjan/working/ACrypto/lib/ACrypto/ACrypto.h
+	"AES128.h"
+	"XTEA.h"
+	"ECBMode.h"
+	"CBCMode.h"
+	"AES128_CMAC.h"
+	"AES128CBC_CMAC_EtM.h"
+
+1323903828 source:/home/kristjan/working/ACrypto/lib/ACrypto/XTEA.cpp
+	"XTEA.h"
+
+1323903828 source:/home/kristjan/working/ACrypto/testing/acrypto_pc_tests/acrypto_pc_tests.cc
+	"ACrypto.h"
+	<string.h>
+	<stdio.h>
+

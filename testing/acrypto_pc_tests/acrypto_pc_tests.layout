@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../lib/ACrypto/ACrypto.h" open="1" top="0" tabpos="3">
+		<Cursor position="1497" topLine="23" />
+	</File>
+	<File name="../../lib/ACrypto/AES128.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../lib/ACrypto/AES128.h" open="1" top="0" tabpos="4">
+		<Cursor position="3564" topLine="90" />
+	</File>
+	<File name="../../lib/ACrypto/AES128CBC_CMAC_EtM.h" open="1" top="0" tabpos="5">
+		<Cursor position="3712" topLine="67" />
+	</File>
+	<File name="../../lib/ACrypto/AES128_CMAC.h" open="1" top="0" tabpos="6">
+		<Cursor position="2663" topLine="51" />
+	</File>
+	<File name="../../lib/ACrypto/BlockCipherAlgorithm.h" open="1" top="0" tabpos="7">
+		<Cursor position="1823" topLine="34" />
+	</File>
+	<File name="../../lib/ACrypto/CBCMode.h" open="1" top="0" tabpos="8">
+		<Cursor position="2910" topLine="57" />
+	</File>
+	<File name="../../lib/ACrypto/CryptoDefs.h" open="1" top="0" tabpos="9">
+		<Cursor position="1383" topLine="16" />
+	</File>
+	<File name="../../lib/ACrypto/CryptoModeBase.h" open="1" top="0" tabpos="10">
+		<Cursor position="2001" topLine="38" />
+	</File>
+	<File name="../../lib/ACrypto/ECBMode.h" open="1" top="0" tabpos="11">
+		<Cursor position="2954" topLine="59" />
+	</File>
+	<File name="../../lib/ACrypto/XTEA.h" open="1" top="0" tabpos="12">
+		<Cursor position="2297" topLine="49" />
+	</File>
+	<File name="../../lib/ACrypto/aes_tables.h" open="1" top="1" tabpos="13">
+		<Cursor position="1272" topLine="18" />
+	</File>
+	<File name="acrypto_pc_tests.cc" open="1" top="0" tabpos="1">
+		<Cursor position="1231" topLine="20" />
+	</File>
+</CodeBlocks_layout_file>

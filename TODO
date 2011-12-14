@@ -1,0 +1,6 @@
+
+* Fix GenKey utility
+* Finish ACrypto implementation for alpha
+* Run test and validate.
+* Document library -- doxygen
+* Include utility to initialize AES tables in EEPROM

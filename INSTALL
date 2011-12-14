@@ -1,0 +1,44 @@
+
+ACrypto -- Arduino Crypto Library. Installation.
+================================================
+
+Either download a tarball of the latest version or clone from the repository.
+The best method is to download to a separate work directory -- not your 
+sketchbook directory.
+
+You need to make the library available to the Arduino environment in order
+to use it in your sketches.
+
+A. Linux (and other Unix-like OSes)
+-----------------------------------
+
+Go to the sketchbook/libraries folder and create a symlink to the ACrypto 
+library code, e.g.:
+
+  ln -s ~/working/arduino-crypto/lib/ACrypto Acrypto
+
+The path to the library code depends on the location of the unpacked files.
+
+You can install a test program to upload to your board as follows.
+Go to your sketchbook folder and add the symlink
+
+  ln -s ln -s ~/working/arduino-crypto/testing/acrypto_arduino_tests acrypto_arduino_tests
+
+Open this sketch in your Arduino environment, compile and upload to the board.
+
+B. Windows
+----------
+
+Copy the ACrypto library code and the test sketch to your sketchbook folder. 
+
+
+
+Using the PC test project
+=========================
+
+The ACrypto library files compile on any platform and can hence be executed on a 
+generic Intel or AMD based platform. We have tested the code on laptops with Intel and AMD
+CPUs under Ubuntu Linux as well as Macbooks running OS/X.
+
+The test project is for the code::blocks IDE and enables much more convenient debugging than can
+be achieved on an Arduino platform. 

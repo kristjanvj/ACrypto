@@ -1,0 +1,16 @@
+ACrypto -- the Arduino Crypto Library
+=====================================
+
+The ACrypto library is a collection of open-source code which implements
+various cryptographic operations on the Arduino family of experimentation 
+boards.
+
+The code is released under GPL v3 license and comes with absolutely no
+warranty. The authors have found the code useful in their projects and
+we hope it will be of use to the Arduino community as well.
+
+The library is located under lib/ACrypto. See INSTALL on instructions on
+how to include the crypto functions in your projects.
+
+Test code is under testing. There is both an Arduino project and a
+code::blocks project for running tests on Intel/AMD platforms.

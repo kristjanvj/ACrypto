@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="acrypto_pc_tests" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/acrypto_pc_tests" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../lib/ACrypto" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/acrypto_pc_tests" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../lib/ACrypto/ACrypto.h" />
+		<Unit filename="../../lib/ACrypto/AES128.cpp" />
+		<Unit filename="../../lib/ACrypto/AES128.h" />
+		<Unit filename="../../lib/ACrypto/AES128CBC_CMAC_EtM.cpp" />
+		<Unit filename="../../lib/ACrypto/AES128CBC_CMAC_EtM.h" />
+		<Unit filename="../../lib/ACrypto/AES128_CMAC.cpp" />
+		<Unit filename="../../lib/ACrypto/AES128_CMAC.h" />
+		<Unit filename="../../lib/ACrypto/BlockCipherAlgorithm.h" />
+		<Unit filename="../../lib/ACrypto/CBCMode.cpp" />
+		<Unit filename="../../lib/ACrypto/CBCMode.h" />
+		<Unit filename="../../lib/ACrypto/CryptoDefs.h" />
+		<Unit filename="../../lib/ACrypto/CryptoModeBase.cpp" />
+		<Unit filename="../../lib/ACrypto/CryptoModeBase.h" />
+		<Unit filename="../../lib/ACrypto/ECBMode.cpp" />
+		<Unit filename="../../lib/ACrypto/ECBMode.h" />
+		<Unit filename="../../lib/ACrypto/XTEA.cpp" />
+		<Unit filename="../../lib/ACrypto/XTEA.h" />
+		<Unit filename="../../lib/ACrypto/aes_tables.h" />
+		<Unit filename="acrypto_pc_tests.cc" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
