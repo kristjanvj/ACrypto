@@ -1,0 +1,17 @@
+Installing the library in the Arduino environment
+=================================================
+
+The library must reside under the sketchbook/libraries path. 
+You can copy the files in this directory into your sketchbook
+directory, i.e. the following path:
+  ~/sketchbook/libraries/ACrypto
+If you want to keep the ACrypto sources in another directory,
+which is in our opinion a better method, is to create a symlink
+as follows:
+  ln -s ~/working/ACrypto/lib/Acrypto ACrypto
+This assumes that you have a working directory and the entire 
+distribution set up under ACrypto. Note that the Arduino 
+environment only needs the sources and headers under lib/ACrypto.
+
+NOTE: This works on Linux and Unix-like OSes. Windows users
+are out of luck as far as we know -- no symlinks.
