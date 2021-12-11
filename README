@@ -1,3 +1,8 @@
+**Note: This project is archived and obviously not actively managed. It is stored here for historical reasons only. There are currently no plans to maintain this code.**
+The project was originally intended to be a growing collection of crypto modules for the Arduino platform. The commits in this repository
+were used in a student project that was part of the authors Ph.D. work, but there has been limited to no time to work on this for the last 10 years obviously.
+Feel free to fork and use for your own projects if you find this useful.
+
 ACrypto -- the Arduino Crypto Library -- v. 0.9 (alpha -- prerelase - dec 2011)
 ==============================================================================
 
@@ -12,10 +17,4 @@ we hope it will be of use to the Arduino community as well.
 
 The library is located under lib/ACrypto. See INSTALL on instructions on
 how to include the crypto functions in your projects.
-
-Test code is under testing. There is both an Arduino project and a
-code::blocks project for running tests on Intel/AMD platforms.
-
-NOTE: The code is currently under development and should not be considered
-an official release. A first "formal" release is planned feb 1. 2012. 
 
